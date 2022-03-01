@@ -1,0 +1,124 @@
+02:45:56 Worker rq:worker:d51d6790c4ef49198599a6b57ab5351c.75f5fcbda471.10828.home-frappe-frappe-bench:long: started, version 1.8.1
+02:45:56 Subscribing to channel rq:pubsub:d51d6790c4ef49198599a6b57ab5351c.75f5fcbda471.10828.home-frappe-frappe-bench:long
+02:45:56 *** Listening on home-frappe-frappe-bench:long...
+02:45:56 Cleaning registries for queue: home-frappe-frappe-bench:long
+02:45:56 Worker rq:worker:e8d7779a046f42f8a3a1f801f7373b6e.75f5fcbda471.10846.home-frappe-frappe-bench:default: started, version 1.8.1
+02:45:56 Subscribing to channel rq:pubsub:e8d7779a046f42f8a3a1f801f7373b6e.75f5fcbda471.10846.home-frappe-frappe-bench:default
+02:45:56 *** Listening on home-frappe-frappe-bench:default...
+02:45:56 Cleaning registries for queue: home-frappe-frappe-bench:default
+02:45:56 Worker rq:worker:0ce4bbd093bf40cea8392f9473c06c5d.75f5fcbda471.10836.home-frappe-frappe-bench:short: started, version 1.8.1
+02:45:56 Subscribing to channel rq:pubsub:0ce4bbd093bf40cea8392f9473c06c5d.75f5fcbda471.10836.home-frappe-frappe-bench:short
+02:45:56 *** Listening on home-frappe-frappe-bench:short...
+02:45:56 Cleaning registries for queue: home-frappe-frappe-bench:short
+03:01:00 Warm shut down requested
+03:01:00 Unsubscribing from channel rq:pubsub:0ce4bbd093bf40cea8392f9473c06c5d.75f5fcbda471.10836.home-frappe-frappe-bench:short
+03:01:00 Warm shut down requested
+03:01:00 Warm shut down requested
+03:01:21 Worker rq:worker:ac56a34eaa624994855ee61bfa639712.75f5fcbda471.11169.home-frappe-frappe-bench:default: started, version 1.8.1
+03:01:21 Subscribing to channel rq:pubsub:ac56a34eaa624994855ee61bfa639712.75f5fcbda471.11169.home-frappe-frappe-bench:default
+03:01:21 *** Listening on home-frappe-frappe-bench:default...
+03:01:21 Cleaning registries for queue: home-frappe-frappe-bench:default
+03:01:21 Worker rq:worker:79cdc10160dd45d484a81017ba33dbcc.75f5fcbda471.11160.home-frappe-frappe-bench:long: started, version 1.8.1
+03:01:21 Subscribing to channel rq:pubsub:79cdc10160dd45d484a81017ba33dbcc.75f5fcbda471.11160.home-frappe-frappe-bench:long
+03:01:21 *** Listening on home-frappe-frappe-bench:long...
+03:01:21 Cleaning registries for queue: home-frappe-frappe-bench:long
+03:01:21 Worker rq:worker:8063527b01c445748b22ef6617d14e40.75f5fcbda471.11171.home-frappe-frappe-bench:short: started, version 1.8.1
+03:01:21 Subscribing to channel rq:pubsub:8063527b01c445748b22ef6617d14e40.75f5fcbda471.11171.home-frappe-frappe-bench:short
+03:01:21 *** Listening on home-frappe-frappe-bench:short...
+03:01:21 Cleaning registries for queue: home-frappe-frappe-bench:short
+03:02:49 Warm shut down requested
+03:02:49 Warm shut down requested
+03:02:49 Warm shut down requested
+03:02:49 Unsubscribing from channel rq:pubsub:79cdc10160dd45d484a81017ba33dbcc.75f5fcbda471.11160.home-frappe-frappe-bench:long
+03:02:49 Unsubscribing from channel rq:pubsub:8063527b01c445748b22ef6617d14e40.75f5fcbda471.11171.home-frappe-frappe-bench:short
+03:02:49 Unsubscribing from channel rq:pubsub:ac56a34eaa624994855ee61bfa639712.75f5fcbda471.11169.home-frappe-frappe-bench:default
+06:58:17 Worker rq:worker:c9d5c637b1864914bee24343c5f23668.309c2176ad9b.240.home-frappe-frappe-bench:short: started, version 1.8.1
+06:58:17 Subscribing to channel rq:pubsub:c9d5c637b1864914bee24343c5f23668.309c2176ad9b.240.home-frappe-frappe-bench:short
+06:58:17 *** Listening on home-frappe-frappe-bench:short...
+06:58:17 Cleaning registries for queue: home-frappe-frappe-bench:short
+06:58:17 Worker rq:worker:09c30ddbeae94c05a1b322c83dad420f.309c2176ad9b.229.home-frappe-frappe-bench:default: started, version 1.8.1
+06:58:17 Subscribing to channel rq:pubsub:09c30ddbeae94c05a1b322c83dad420f.309c2176ad9b.229.home-frappe-frappe-bench:default
+06:58:17 *** Listening on home-frappe-frappe-bench:default...
+06:58:17 Cleaning registries for queue: home-frappe-frappe-bench:default
+06:58:17 Worker rq:worker:fc528062c00a4d169e382d9a2e8c8727.309c2176ad9b.228.home-frappe-frappe-bench:long: started, version 1.8.1
+06:58:17 Subscribing to channel rq:pubsub:fc528062c00a4d169e382d9a2e8c8727.309c2176ad9b.228.home-frappe-frappe-bench:long
+06:58:17 *** Listening on home-frappe-frappe-bench:long...
+06:58:17 Cleaning registries for queue: home-frappe-frappe-bench:long
+06:58:19 Warm shut down requested
+06:58:19 Warm shut down requested
+06:58:19 Unsubscribing from channel rq:pubsub:fc528062c00a4d169e382d9a2e8c8727.309c2176ad9b.228.home-frappe-frappe-bench:long
+06:58:19 Warm shut down requested
+06:58:19 Unsubscribing from channel rq:pubsub:c9d5c637b1864914bee24343c5f23668.309c2176ad9b.240.home-frappe-frappe-bench:short
+06:58:19 Unsubscribing from channel rq:pubsub:09c30ddbeae94c05a1b322c83dad420f.309c2176ad9b.229.home-frappe-frappe-bench:default
+07:10:31 Worker rq:worker:cc54e749000242c9a8a13cd879b23ba0.853785cef99e.399.home-frappe-frappe-bench:default: started, version 1.8.1
+07:10:31 Subscribing to channel rq:pubsub:cc54e749000242c9a8a13cd879b23ba0.853785cef99e.399.home-frappe-frappe-bench:default
+07:10:31 *** Listening on home-frappe-frappe-bench:default...
+07:10:31 Cleaning registries for queue: home-frappe-frappe-bench:default
+07:10:31 Worker rq:worker:454b58bd3aaf4cb5a2faf10d3ac1abf9.853785cef99e.398.home-frappe-frappe-bench:short: started, version 1.8.1
+07:10:31 Subscribing to channel rq:pubsub:454b58bd3aaf4cb5a2faf10d3ac1abf9.853785cef99e.398.home-frappe-frappe-bench:short
+07:10:31 *** Listening on home-frappe-frappe-bench:short...
+07:10:31 Cleaning registries for queue: home-frappe-frappe-bench:short
+07:10:31 Worker rq:worker:3e3b89f428d04f58ad047726884c4f17.853785cef99e.387.home-frappe-frappe-bench:long: started, version 1.8.1
+07:10:31 Subscribing to channel rq:pubsub:3e3b89f428d04f58ad047726884c4f17.853785cef99e.387.home-frappe-frappe-bench:long
+07:10:31 *** Listening on home-frappe-frappe-bench:long...
+07:10:31 Cleaning registries for queue: home-frappe-frappe-bench:long
+07:12:05 Warm shut down requested
+07:12:05 Unsubscribing from channel rq:pubsub:cc54e749000242c9a8a13cd879b23ba0.853785cef99e.399.home-frappe-frappe-bench:default
+07:12:05 Warm shut down requested
+07:12:05 Unsubscribing from channel rq:pubsub:454b58bd3aaf4cb5a2faf10d3ac1abf9.853785cef99e.398.home-frappe-frappe-bench:short
+07:12:05 Warm shut down requested
+07:12:05 Unsubscribing from channel rq:pubsub:3e3b89f428d04f58ad047726884c4f17.853785cef99e.387.home-frappe-frappe-bench:long
+07:12:50 Worker rq:worker:0e7dd8ec6da64d4893f6e9054979dfad.853785cef99e.559.home-frappe-frappe-bench:long: started, version 1.8.1
+07:12:50 Subscribing to channel rq:pubsub:0e7dd8ec6da64d4893f6e9054979dfad.853785cef99e.559.home-frappe-frappe-bench:long
+07:12:50 *** Listening on home-frappe-frappe-bench:long...
+07:12:50 Cleaning registries for queue: home-frappe-frappe-bench:long
+07:12:50 Worker rq:worker:8fba0e473a6d46909d440c28de2274b4.853785cef99e.544.home-frappe-frappe-bench:short: started, version 1.8.1
+07:12:50 Subscribing to channel rq:pubsub:8fba0e473a6d46909d440c28de2274b4.853785cef99e.544.home-frappe-frappe-bench:short
+07:12:50 *** Listening on home-frappe-frappe-bench:short...
+07:12:50 Cleaning registries for queue: home-frappe-frappe-bench:short
+07:12:50 Worker rq:worker:0816df41416d4c89b9e41426b8c5e066.853785cef99e.560.home-frappe-frappe-bench:default: started, version 1.8.1
+07:12:50 Subscribing to channel rq:pubsub:0816df41416d4c89b9e41426b8c5e066.853785cef99e.560.home-frappe-frappe-bench:default
+07:12:50 *** Listening on home-frappe-frappe-bench:default...
+07:12:50 Cleaning registries for queue: home-frappe-frappe-bench:default
+07:12:53 Warm shut down requested
+07:12:53 Unsubscribing from channel rq:pubsub:8fba0e473a6d46909d440c28de2274b4.853785cef99e.544.home-frappe-frappe-bench:short
+07:12:53 Warm shut down requested
+07:12:53 Warm shut down requested
+07:12:53 Unsubscribing from channel rq:pubsub:0816df41416d4c89b9e41426b8c5e066.853785cef99e.560.home-frappe-frappe-bench:default
+07:12:53 Unsubscribing from channel rq:pubsub:0e7dd8ec6da64d4893f6e9054979dfad.853785cef99e.559.home-frappe-frappe-bench:long
+08:44:33 Worker rq:worker:caa20bf005674457b3e20e341884cb32.69c049d921c1.732.home-frappe-frappe-bench:long: started, version 1.8.1
+08:44:33 Subscribing to channel rq:pubsub:caa20bf005674457b3e20e341884cb32.69c049d921c1.732.home-frappe-frappe-bench:long
+08:44:33 *** Listening on home-frappe-frappe-bench:long...
+08:44:33 Cleaning registries for queue: home-frappe-frappe-bench:long
+08:44:33 Worker rq:worker:c63702f100204792acecda4093ee5711.69c049d921c1.734.home-frappe-frappe-bench:default: started, version 1.8.1
+08:44:33 Subscribing to channel rq:pubsub:c63702f100204792acecda4093ee5711.69c049d921c1.734.home-frappe-frappe-bench:default
+08:44:33 *** Listening on home-frappe-frappe-bench:default...
+08:44:33 Cleaning registries for queue: home-frappe-frappe-bench:default
+08:44:33 Worker rq:worker:080510f3458c4547b9afd49571ace0b6.69c049d921c1.740.home-frappe-frappe-bench:short: started, version 1.8.1
+08:44:33 Subscribing to channel rq:pubsub:080510f3458c4547b9afd49571ace0b6.69c049d921c1.740.home-frappe-frappe-bench:short
+08:44:33 *** Listening on home-frappe-frappe-bench:short...
+08:44:33 Cleaning registries for queue: home-frappe-frappe-bench:short
+08:44:49 Warm shut down requested
+08:44:49 Warm shut down requested
+08:44:49 Warm shut down requested
+08:44:49 Unsubscribing from channel rq:pubsub:080510f3458c4547b9afd49571ace0b6.69c049d921c1.740.home-frappe-frappe-bench:short
+08:44:49 Unsubscribing from channel rq:pubsub:c63702f100204792acecda4093ee5711.69c049d921c1.734.home-frappe-frappe-bench:default
+08:44:49 Unsubscribing from channel rq:pubsub:caa20bf005674457b3e20e341884cb32.69c049d921c1.732.home-frappe-frappe-bench:long
+08:46:00 Worker rq:worker:6368bfaf0f79414b9d361030462fe903.69c049d921c1.1046.home-frappe-frappe-bench:long: started, version 1.8.1
+08:46:00 Subscribing to channel rq:pubsub:6368bfaf0f79414b9d361030462fe903.69c049d921c1.1046.home-frappe-frappe-bench:long
+08:46:00 *** Listening on home-frappe-frappe-bench:long...
+08:46:00 Cleaning registries for queue: home-frappe-frappe-bench:long
+08:46:01 Worker rq:worker:8efcd2ffd9dd4d7ab5f33769e09c1fcf.69c049d921c1.1062.home-frappe-frappe-bench:short: started, version 1.8.1
+08:46:01 Subscribing to channel rq:pubsub:8efcd2ffd9dd4d7ab5f33769e09c1fcf.69c049d921c1.1062.home-frappe-frappe-bench:short
+08:46:01 *** Listening on home-frappe-frappe-bench:short...
+08:46:01 Cleaning registries for queue: home-frappe-frappe-bench:short
+08:46:01 Worker rq:worker:02a8d44345544de2bb3b376fd9f8e9e4.69c049d921c1.1037.home-frappe-frappe-bench:default: started, version 1.8.1
+08:46:01 Subscribing to channel rq:pubsub:02a8d44345544de2bb3b376fd9f8e9e4.69c049d921c1.1037.home-frappe-frappe-bench:default
+08:46:01 *** Listening on home-frappe-frappe-bench:default...
+08:46:01 Cleaning registries for queue: home-frappe-frappe-bench:default
+08:51:32 Warm shut down requested
+08:51:32 Warm shut down requested
+08:51:32 Warm shut down requested
+08:51:32 Unsubscribing from channel rq:pubsub:6368bfaf0f79414b9d361030462fe903.69c049d921c1.1046.home-frappe-frappe-bench:long
+08:51:32 Unsubscribing from channel rq:pubsub:02a8d44345544de2bb3b376fd9f8e9e4.69c049d921c1.1037.home-frappe-frappe-bench:default
+08:51:32 Unsubscribing from channel rq:pubsub:8efcd2ffd9dd4d7ab5f33769e09c1fcf.69c049d921c1.1062.home-frappe-frappe-bench:short

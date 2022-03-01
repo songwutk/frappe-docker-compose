@@ -1,0 +1,27 @@
+version: '2'
+services:
+
+  frappe:
+    container_name: frappe
+    image: songwutk/frappe-mariadb
+    tty: true
+    ports:
+      - 8000:8000
+    volumes:
+        - ./frappe:/home/frappe
+    user: 'frappe:frappe'
+    working_dir : '/home/frappe/frappe-bench/'
+      #    command: ['/entrypoint.sh']
+
+  mysql:
+    container_name: mysql
+    image: mariadb:10.7
+    environment:
+        MYSQL_ROOT_PASSWORD: rootdocker
+    volumes:
+        - ./db/:/var/lib/mysql
+        - ./logs/mysql:/var/log/mysql
+        - ./mycnf:/etc/mysql/mariadb.conf.d
+    ports:
+      - 3306:3306
+

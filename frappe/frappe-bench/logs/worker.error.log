@@ -1,0 +1,537 @@
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/utils.py:281: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  return StrictVersion('.'.join(version_string.split('.')[:3]))
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py:308: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if self.get_redis_server_version() >= StrictVersion("4.0.0"):
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/utils.py:281: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  return StrictVersion('.'.join(version_string.split('.')[:3]))
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py:308: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if self.get_redis_server_version() >= StrictVersion("4.0.0"):
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/utils.py:281: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  return StrictVersion('.'.join(version_string.split('.')[:3]))
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py:308: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if self.get_redis_server_version() >= StrictVersion("4.0.0"):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 198, in _read_from_socket
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+    data = recv(self._sock, socket_read_size)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/_compat.py", line 72, in recv
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+        return _run_code(code, main_globals, None,return _run_code(code, main_globals, None,
+
+  File "/usr/lib/python3.9/runpy.py", line 87, in _run_code
+  File "/usr/lib/python3.9/runpy.py", line 87, in _run_code
+        exec(code, run_globals)exec(code, run_globals)
+
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+        main()main()
+
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+        click.Group(commands=commands)(prog_name='bench')click.Group(commands=commands)(prog_name='bench')
+
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 829, in __call__
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 181, in start_worker
+    return self.main(*args, **kwargs)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 181, in start_worker
+    start_worker(queue, quiet = quiet, rq_username=rq_username, rq_password=rq_password)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 169, in start_worker
+    start_worker(queue, quiet = quiet, rq_username=rq_username, rq_password=rq_password)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 169, in start_worker
+    Worker(queues, name=get_worker_name(queue_name)).work(logging_level = logging_level)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py", line 626, in work
+    Worker(queues, name=get_worker_name(queue_name)).work(logging_level = logging_level)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py", line 326, in register_death
+    self.register_death()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 4019, in execute
+    p.execute()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 4019, in execute
+    return execute(conn, stack, raise_on_error)
+    return execute(conn, stack, raise_on_error)  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3894, in _execute_transaction
+
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3894, in _execute_transaction
+    self.parse_response(connection, '_')
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3977, in parse_response
+    self.parse_response(connection, '_')
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3977, in parse_response
+    result = Redis.parse_response(
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 915, in parse_response
+    result = Redis.parse_response(
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 739, in read_response
+    response = connection.read_response()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 324, in read_response
+    response = self._parser.read_response()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 256, in readline
+    self._read_from_socket()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+    raw = self._buffer.readline()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 256, in readline
+    self._read_from_socket()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    pubsub.get_message(ignore_subscribe_messages=True,
+      File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    return self._parser.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/utils.py:281: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  return StrictVersion('.'.join(version_string.split('.')[:3]))
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py:308: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if self.get_redis_server_version() >= StrictVersion("4.0.0"):
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/utils.py:281: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  return StrictVersion('.'.join(version_string.split('.')[:3]))
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py:308: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if self.get_redis_server_version() >= StrictVersion("4.0.0"):
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/utils.py:281: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  return StrictVersion('.'.join(version_string.split('.')[:3]))
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py:308: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if self.get_redis_server_version() >= StrictVersion("4.0.0"):
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/utils.py:281: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  return StrictVersion('.'.join(version_string.split('.')[:3]))
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py:308: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if self.get_redis_server_version() >= StrictVersion("4.0.0"):
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/utils.py:281: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  return StrictVersion('.'.join(version_string.split('.')[:3]))
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py:308: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if self.get_redis_server_version() >= StrictVersion("4.0.0"):
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/utils.py:281: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  return StrictVersion('.'.join(version_string.split('.')[:3]))
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py:308: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if self.get_redis_server_version() >= StrictVersion("4.0.0"):
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    response = self.parse_response(block=False, timeout=timeout)
+      File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+self.run()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    self.run()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/utils.py:281: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  return StrictVersion('.'.join(version_string.split('.')[:3]))
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py:308: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if self.get_redis_server_version() >= StrictVersion("4.0.0"):
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/utils.py:281: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  return StrictVersion('.'.join(version_string.split('.')[:3]))
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py:308: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if self.get_redis_server_version() >= StrictVersion("4.0.0"):
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/utils.py:281: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  return StrictVersion('.'.join(version_string.split('.')[:3]))
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py:308: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if self.get_redis_server_version() >= StrictVersion("4.0.0"):
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/utils.py:281: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  return StrictVersion('.'.join(version_string.split('.')[:3]))
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py:308: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if self.get_redis_server_version() >= StrictVersion("4.0.0"):
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/utils.py:281: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  return StrictVersion('.'.join(version_string.split('.')[:3]))
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py:308: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if self.get_redis_server_version() >= StrictVersion("4.0.0"):
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/utils.py:281: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  return StrictVersion('.'.join(version_string.split('.')[:3]))
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py:308: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if self.get_redis_server_version() >= StrictVersion("4.0.0"):
+Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+OSError: [Errno 99] Cannot assign requested address
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 829, in __call__
+Exception in thread Thread-1:
+Exception in thread Thread-1:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+    self.run()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    return self.main(*args, **kwargs)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 1259, in invoke
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 181, in start_worker
+    start_worker(queue, quiet = quiet, rq_username=rq_username, rq_password=rq_password)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 169, in start_worker
+    Worker(queues, name=get_worker_name(queue_name)).work(logging_level = logging_level)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py", line 627, in work
+    self.unsubscribe()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py", line 532, in unsubscribe
+    self.pubsub.unsubscribe()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3600, in unsubscribe
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    return self.execute_command('UNSUBSCRIBE', *args)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3466, in execute_command
+    self.connection = self.connection_pool.get_connection(
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 99 connecting to localhost:11000. Cannot assign requested address.
+/bin/sh: 1: bench: not found
+/bin/sh: 1: bench: not found
+/bin/sh: 1: bench: not found
+/bin/sh: 1: bench: not found
+/bin/sh: 1: bench: not found
+/bin/sh: 1: bench: not found
+/bin/sh: 1: bench: not found
+/bin/sh: 1: bench: not found
+/bin/sh: 1: bench: not found
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/utils.py:281: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  return StrictVersion('.'.join(version_string.split('.')[:3]))
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py:308: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if self.get_redis_server_version() >= StrictVersion("4.0.0"):
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/utils.py:281: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  return StrictVersion('.'.join(version_string.split('.')[:3]))
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py:308: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if self.get_redis_server_version() >= StrictVersion("4.0.0"):
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/utils.py:281: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  return StrictVersion('.'.join(version_string.split('.')[:3]))
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py:308: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if self.get_redis_server_version() >= StrictVersion("4.0.0"):
+Exception in thread Exception in thread Thread-1:
+Traceback (most recent call last):
+Thread-1:
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/utils.py:281: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  return StrictVersion('.'.join(version_string.split('.')[:3]))
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py:308: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if self.get_redis_server_version() >= StrictVersion("4.0.0"):
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/utils.py:281: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  return StrictVersion('.'.join(version_string.split('.')[:3]))
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py:308: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if self.get_redis_server_version() >= StrictVersion("4.0.0"):
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/utils.py:281: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  return StrictVersion('.'.join(version_string.split('.')[:3]))
+/home/frappe/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py:308: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if self.get_redis_server_version() >= StrictVersion("4.0.0"):
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/home/frappe/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.

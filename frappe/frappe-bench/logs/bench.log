@@ -1,0 +1,92 @@
+2022-03-01 01:41:03,507 DEBUG cd /home/frappe/frappe-bench && /home/frappe/.local/bin/virtualenv --quiet env -p python3
+2022-03-01 01:41:03,996 DEBUG cd /home/frappe/frappe-bench && /home/frappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2022-03-01 01:41:05,655 LOG Getting frappe
+2022-03-01 01:41:05,655 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2022-03-01 01:41:26,191 LOG Installing frappe
+2022-03-01 01:41:26,191 DEBUG cd /home/frappe/frappe-bench && /home/frappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/frappe/frappe-bench/apps/frappe 
+2022-03-01 01:42:08,108 DEBUG cd /home/frappe/frappe-bench/apps/frappe && yarn install
+2022-03-01 01:42:28,061 DEBUG cd frappe-bench && bench build
+2022-03-01 01:42:28,216 INFO /home/frappe/.local/bin/bench build
+2022-03-01 01:43:41,425 LOG setting up backups
+2022-03-01 01:43:41,436 LOG backups were set up
+2022-03-01 01:43:41,436 INFO Bench frappe-bench initialized
+2022-03-01 01:55:18,915 INFO /home/frappe/.local/bin/bench new-app defaul
+2022-03-01 01:55:19,991 LOG creating new app defaul
+2022-03-01 01:55:23,877 WARNING /home/frappe/.local/bin/bench new-app defaul executed with exit code 1
+2022-03-01 01:55:25,885 INFO /home/frappe/.local/bin/bench new-app default
+2022-03-01 01:55:27,030 LOG creating new app default
+2022-03-01 01:56:18,836 LOG Installing default
+2022-03-01 01:56:18,837 DEBUG cd /home/frappe/frappe-bench && /home/frappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/frappe/frappe-bench/apps/default 
+2022-03-01 01:56:22,718 DEBUG bench build --app default
+2022-03-01 01:56:22,863 INFO /home/frappe/.local/bin/bench build --app default
+2022-03-01 02:02:58,200 INFO /home/frappe/.local/bin/bench new-site default.site
+2022-03-01 02:03:58,178 INFO /home/frappe/.local/bin/bench new-site default.site --help
+2022-03-01 02:07:33,321 INFO /home/frappe/.local/bin/bench new-site default.site --db-host mysql --db-root-password frappe
+2022-03-01 02:22:07,813 INFO /home/frappe/.local/bin/bench new-site --help
+2022-03-01 02:22:50,260 INFO /home/frappe/.local/bin/bench new-site default.site --db-host mysql --mariadb-root-password rootdocker
+2022-03-01 02:45:54,019 INFO /home/frappe/.local/bin/bench start
+2022-03-01 02:45:55,528 INFO /home/frappe/.local/bin/bench schedule
+2022-03-01 02:45:55,540 INFO /home/frappe/.local/bin/bench watch
+2022-03-01 02:45:55,616 INFO /home/frappe/.local/bin/bench worker --queue default
+2022-03-01 02:45:55,617 INFO /home/frappe/.local/bin/bench serve --port 8000
+2022-03-01 02:45:55,697 INFO /home/frappe/.local/bin/bench worker --queue long
+2022-03-01 02:45:55,793 INFO /home/frappe/.local/bin/bench worker --queue short
+2022-03-01 03:01:16,327 INFO /home/frappe/.local/bin/bench use default.site
+2022-03-01 03:01:18,705 INFO /home/frappe/.local/bin/bench start
+2022-03-01 03:01:20,404 INFO /home/frappe/.local/bin/bench worker --queue long
+2022-03-01 03:01:20,470 INFO /home/frappe/.local/bin/bench worker --queue default
+2022-03-01 03:01:20,549 INFO /home/frappe/.local/bin/bench worker --queue short
+2022-03-01 03:01:20,559 INFO /home/frappe/.local/bin/bench serve --port 8000
+2022-03-01 03:01:20,569 INFO /home/frappe/.local/bin/bench schedule
+2022-03-01 03:01:20,582 INFO /home/frappe/.local/bin/bench watch
+2022-03-01 06:58:15,230 INFO /home/frappe/.local/bin/bench start
+2022-03-01 06:58:16,661 INFO /home/frappe/.local/bin/bench schedule
+2022-03-01 06:58:16,769 INFO /home/frappe/.local/bin/bench serve --port 8000
+2022-03-01 06:58:16,775 INFO /home/frappe/.local/bin/bench worker --queue default
+2022-03-01 06:58:16,847 INFO /home/frappe/.local/bin/bench worker --queue short
+2022-03-01 06:58:16,908 INFO /home/frappe/.local/bin/bench worker --queue long
+2022-03-01 06:58:16,920 INFO /home/frappe/.local/bin/bench watch
+2022-03-01 07:08:34,638 INFO /home/frappe/.local/bin/bench start
+2022-03-01 07:08:35,773 WARNING /home/frappe/.local/bin/bench start executed with exit code 1
+2022-03-01 07:10:29,130 INFO /home/frappe/.local/bin/bench start
+2022-03-01 07:10:30,549 INFO /home/frappe/.local/bin/bench worker --queue short
+2022-03-01 07:10:30,669 INFO /home/frappe/.local/bin/bench watch
+2022-03-01 07:10:30,678 INFO /home/frappe/.local/bin/bench worker --queue long
+2022-03-01 07:10:30,706 INFO /home/frappe/.local/bin/bench schedule
+2022-03-01 07:10:30,741 INFO /home/frappe/.local/bin/bench serve --port 8000
+2022-03-01 07:10:30,757 INFO /home/frappe/.local/bin/bench worker --queue default
+2022-03-01 07:12:48,366 INFO /home/frappe/.local/bin/bench start
+2022-03-01 07:12:49,932 INFO /home/frappe/.local/bin/bench watch
+2022-03-01 07:12:49,951 INFO /home/frappe/.local/bin/bench worker --queue long
+2022-03-01 07:12:49,979 INFO /home/frappe/.local/bin/bench schedule
+2022-03-01 07:12:49,984 INFO /home/frappe/.local/bin/bench worker --queue short
+2022-03-01 07:12:50,012 INFO /home/frappe/.local/bin/bench worker --queue default
+2022-03-01 07:12:50,015 INFO /home/frappe/.local/bin/bench serve --port 8000
+2022-03-01 07:12:54,318 INFO /home/frappe/.local/bin/bench start
+2022-03-01 07:12:55,730 INFO /home/frappe/.local/bin/bench serve --port 8000
+2022-03-01 07:12:55,889 INFO /home/frappe/.local/bin/bench worker --queue default
+2022-03-01 07:12:55,903 INFO /home/frappe/.local/bin/bench watch
+2022-03-01 07:12:55,910 INFO /home/frappe/.local/bin/bench schedule
+2022-03-01 07:12:55,912 INFO /home/frappe/.local/bin/bench worker --queue long
+2022-03-01 07:12:55,937 INFO /home/frappe/.local/bin/bench worker --queue short
+2022-03-01 07:17:58,894 INFO /home/frappe/.local/bin/bench start
+2022-03-01 07:18:00,019 WARNING /home/frappe/.local/bin/bench start executed with exit code 1
+2022-03-01 08:04:29,273 INFO /home/frappe/.local/bin/bench start
+2022-03-01 08:04:30,380 WARNING /home/frappe/.local/bin/bench start executed with exit code 1
+2022-03-01 08:14:10,347 INFO /home/frappe/.local/bin/bench start
+2022-03-01 08:15:43,314 INFO /home/frappe/.local/bin/bench start
+2022-03-01 08:30:53,259 INFO /home/frappe/.local/bin/bench start
+2022-03-01 08:44:31,205 INFO /home/frappe/.local/bin/bench start
+2022-03-01 08:44:32,899 INFO /home/frappe/.local/bin/bench worker --queue long
+2022-03-01 08:44:32,909 INFO /home/frappe/.local/bin/bench worker --queue default
+2022-03-01 08:44:32,946 INFO /home/frappe/.local/bin/bench serve --port 8000
+2022-03-01 08:44:32,957 INFO /home/frappe/.local/bin/bench schedule
+2022-03-01 08:44:32,959 INFO /home/frappe/.local/bin/bench worker --queue short
+2022-03-01 08:44:32,986 INFO /home/frappe/.local/bin/bench watch
+2022-03-01 08:45:58,293 INFO /home/frappe/.local/bin/bench start
+2022-03-01 08:45:59,752 INFO /home/frappe/.local/bin/bench worker --queue long
+2022-03-01 08:45:59,921 INFO /home/frappe/.local/bin/bench serve --port 8000
+2022-03-01 08:46:00,059 INFO /home/frappe/.local/bin/bench worker --queue short
+2022-03-01 08:46:00,147 INFO /home/frappe/.local/bin/bench schedule
+2022-03-01 08:46:00,157 INFO /home/frappe/.local/bin/bench worker --queue default
+2022-03-01 08:46:00,182 INFO /home/frappe/.local/bin/bench watch

@@ -28,3 +28,6 @@ I'm new to docker. I can't create instant run frappe service, so please manual s
 
 # Size of my frappe image is  1.13GB
 Total of project folder is 1.9GB
+
+
+Connection detail is in /home/frappe/frappe-bench/sites/default.site/site_config.json

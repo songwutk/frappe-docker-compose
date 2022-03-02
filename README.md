@@ -25,5 +25,4 @@ bench start
 I'm new to docker. I can't create instant run frappe service, so please manual start by yourself.
 
 # Size of my frappe image is  1.13GB
-
-
+Total of project folder is 1.9GB

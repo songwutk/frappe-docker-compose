@@ -14,6 +14,8 @@ docker exec -it frappe /bin/bash
 
 rm sites/default.site -rf
 
+( remove old database // Ex.  _9949f0c873ec47cd )
+
 bench new-site default.site --db-host mysql --mariadb-root-password rootdocker
 
 bench use default.site
